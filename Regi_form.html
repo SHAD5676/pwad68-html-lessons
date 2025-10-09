@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .myform{
+            width: 700px;
+            background-color: blanchedalmond;
+            margin: auto;
+        }
+        .myform label{
+            width: 180px;
+            background-color: bisque;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            padding: 5px;
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="myform">
+    <h1>Student Registration Form</h1>
+    <form action="">
+        Roll no:
+        <input type="number" id="roll" name="roll"> <br><br>
+        Student name:
+        <input type="text" name="fullname" placeholder="First name">
+        <input type="text" name="fullname" placeholder="Last name"> <br><br>
+        Father's name:
+        <input type="text" id="name" name="name"> <br><br>
+        Date of Birth:
+        <input type="number" id="day" name="day" placeholder="Day" min="1" max="100">
+        <input type="text" id="month" name="month" placeholder="Month" min="January" max="December" style="width: 50px;">
+        <input type="number" id="year" name="year" placeholder="Year" min="1990" max="2025"> <br><br>
+
+        Mobile no:
+        <input type="number" name="number"> <br><br>
+        Email id:
+        <input type="email" id="email" name="email"> <br><br>
+        Password:
+        <input type="password" id="password" name="password"> <br><br>
+        Gender:
+        <input type="radio" id="male" name="gender" value="Male">Male
+        <input type="radio" id="female" name="gender" value="Female">Female <br><br>
+        Departname:
+        <input type="checkbox" id="css" name="" value="CSS">CSS
+        <input type="checkbox" id="it" name="" value="IT">IT
+        <input type="checkbox" id="ece" name="" value="ECE">ECE
+        <input type="checkbox" id="civil" name="" value="Civil">Civil
+        <input type="checkbox" id="mech" name="" value="Mech">Mech <br><br>
+        Course:
+        <select name="course" id="required">
+            <option value="">Select Current Course</option>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>PHP</option>
+            <option>Python</option>
+        </select> <br><br>
+        Studenr Photo:
+        <input type="file" id="photo" placeholder="Choose File"> <br><br>
+        City:
+        <input type="text" id="city" name="city"> <br><br>
+        Address:
+        <textarea name="" id=""></textarea> <br><br>
+
+        <button type="submit">Submit</button>
+
+
+
+
+
+     </div>
+    </form>
+</body>
+
+</html>
